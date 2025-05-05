@@ -39,16 +39,16 @@ export const FilterBar = () => {
         
 
         <div className='filter-inputs'>
-        <select name="severity" id="" onChange={(e)=>dispatchFilter(e.target)}>
+        <select name="severity" id="" onChange={(e)=>dispatchFilter({name: e.target.name, value: e.target.value})}>
             <option value="low">LOW</option>
-            <option value="mediam">MEDIAM</option>
+            <option value="medium">MEDIUM</option>
             <option value="high">HIGH</option>
             <option value="critical">CRITICAL</option>
         </select>
-        <input type="text" name="devId" id="" placeholder='Developer ID' onChange={(e)=>dispatchFilter(e.target)} />
-        <input type="text" name="start" id="" placeholder='Start' onChange={(e)=>dispatchFilter(e.target)} />
+        <input type="text" name="devId" id="" placeholder='Developer ID' onChange={(e)=>dispatchFilter({name: e.target.name, value: e.target.value})} />
+        <input type="text" name="start" id="" placeholder='Start' onChange={(e)=>dispatchFilter({name: e.target.name, value: e.target.value})} />
 
-        <input type="text" name="end" id="" placeholder='End' onChange={(e)=>dispatchFilter(e.target)} />
+        <input type="text" name="end" id="" placeholder='End' onChange={(e)=>dispatchFilter({name: e.target.name, value: e.target.value})} />
         </div>
        
          

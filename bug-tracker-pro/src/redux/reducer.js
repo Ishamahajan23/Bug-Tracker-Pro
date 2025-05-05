@@ -1,6 +1,6 @@
 import {SET_LOGS, SET_ACTIVE_VIEWS} from './actions';
 
-const intialstate={
+const initialState={
     allLogs:[],
     activeLogs:[],
     recruiter:{
@@ -8,7 +8,7 @@ const intialstate={
     }
 }
 
-export const logreducer=(state=intialstate,action)=>{
+export const logreducer=(state=initialState,action)=>{
 
     switch(action.type){
         case "SET_LOGS":

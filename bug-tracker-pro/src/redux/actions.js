@@ -6,7 +6,7 @@ export const setLogs=(logs)=>({
     payload:logs,
 });
 
-export const setActiveViews=(logs)=>({
+export const setActiveViews=(activeLogs)=>({
     type:SET_ACTIVE_VIEWS,
-    payload:logs,
+    payload:activeLogs,
 });

@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux'
 
 export const Develoers = () => {
     const {devId}=useParams();
-    const logs=useSelector((state)=>state.activelogs);
+    const logs=useSelector((state)=>state.activeLogs);
     const allLogs=useSelector((state)=>state.allLogs);
     const filteredLogs=allLogs.filter((log)=>log.devId===devId);
 

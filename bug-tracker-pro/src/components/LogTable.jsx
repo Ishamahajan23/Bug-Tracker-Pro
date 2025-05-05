@@ -33,7 +33,7 @@ export const LogTable = () => {
                           <td>{log.timestamp}</td>
                           <td>{log.severity}</td>
                           <td>{log.message}</td>
-                          <td><Link to={`search/${log.devId}`}>Get Info</Link></td>
+                          <td><Link to={`/logs/search/${log.devId}`}>Get Info</Link></td>
                         </tr>
                     ))
                 }

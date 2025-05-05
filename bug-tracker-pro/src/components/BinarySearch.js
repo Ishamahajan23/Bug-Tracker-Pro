@@ -15,9 +15,9 @@ export const BinarySearch=(arr,target)=>{
     return -1;
 };
 
-export const sevirityRank={
+export const severityRank={
     low:1,
-    mediam:2,
+    medium:2,
     high:3,
     critical:4
 }
