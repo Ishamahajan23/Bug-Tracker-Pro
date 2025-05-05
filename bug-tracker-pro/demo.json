@@ -1,0 +1,12 @@
+[{ "id": 1, "timestamp": 1710000034, "severity": "high", "message": "Unhandled promise", "devId": "DEV1001" },
+{ "id": 2, "timestamp": 1710000035, "severity": "low", "message": "Null pointer exception", "devId": "DEV1002" },
+{ "id": 3, "timestamp": 1710000036, "severity": "medium", "message": "Memory leak detected", "devId": "DEV1003" },
+{ "id": 4, "timestamp": 1710000037, "severity": "high", "message": "Database connection error", "devId": "DEV1004" },
+{ "id": 5, "timestamp": 1710000038, "severity": "low", "message": "UI layout issue", "devId": "DEV1005" },
+{ "id": 6, "timestamp": 1710000039, "severity": "medium", "message": "API response delay", "devId": null },
+{ "id": 7, "timestamp": 1710000040, "severity": null,   "message": null,   "devId": null },
+{ "id": 8, "timestamp": null,   "severity": null,   "message": null,   "devId": null }
+
+
+
+]
